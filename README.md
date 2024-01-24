@@ -195,12 +195,12 @@ python inference.py \
 
 ## ☎️ Contact
 
-- Issue(建议)
-  ：[![GitHub issues](https://img.shields.io/github/issues/shibing624/MedicalGPT.svg)](https://github.com/shibing624/MedicalGPT/issues)
-- 邮件我：xuming: xuming624@qq.com
-- 微信我： 加我*微信号：xuming624, 备注：姓名-公司名-NLP* 进NLP交流群。
 
-<img src="https://github.com/shibing624/MedicalGPT/blob/main/docs/wechat.jpeg" width="200" />
+- Issue(建议)
+- 邮件我：shanhe12@163.com 
+- 微信我： 加我*微信号：hua7yi, 备注：姓名-公司名-NLP* 进NLP交流群。
+
+<img src="https://github.com/shanchanghua/medical_gpt/blob/main/docs/wechat.jpg" width="200" />
 
 ## ⚠️ 局限性、使用限制与免责声明
 
