@@ -10,11 +10,11 @@
 
 # MedicalGPT: Training Medical GPT Model
 [![HF Models](https://img.shields.io/badge/Hugging%20Face-shibing624-green)](https://huggingface.co/shancx)
-[![Github Stars](https://img.shields.io/github/stars/shibing624/MedicalGPT?color=yellow)](https://star-history.com/#shibing624/MedicalGPT&Timeline)
+[![Github Stars](https://img.shields.io/github/stars/shanchanghua/medical_gpt?color=yellow)](https://star-history.com/#shanchanghua/medical_gpt&Timeline)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![python_version](https://img.shields.io/badge/Python-3.8%2B-green.svg)](requirements.txt)
-[![GitHub issues](https://img.shields.io/github/issues/shibing624/MedicalGPT.svg)](https://github.com/shanchanghua/medical_gpt/issues)
+[![GitHub issues](https://img.shields.io/github/issues/shanchanghua/medical_gpt.svg)](https://github.com/shanchanghua/medical_gpt/issues)
 [![Wechat Group](http://vlog.sfyc.ltd/wechat_everyday/wxgroup_logo.png?imageView2/0/w/60/h/20)](#Contact)
 
 ## 📖 Introduction
@@ -83,7 +83,7 @@ Training Stage:
 | Stage 3: Reward Modeling        | 奖励模型建模       | [reward_modeling.py](https://github.com/shanchanghua/medical_gpt/blob/main/reward_modeling.py)             | [run_rm.sh](https://github.com/shanchanghua/medical_gpt/blob/main/run_rm.sh)   | 
 | Stage 4: Reinforcement Learning | 强化学习         |  [rl_training.py](https://github.com/shanchanghua/medical_gpt/blob/main/rl_training.py)                     | [run_rl.sh](https://github.com/shanchanghua/medical_gpt/blob/main/run_rl.sh)   | 
 
-- 提供完整四阶段串起来训练的pipeline：[run_training_pipeline.ipynb](https://github.com/shanchanghua/medical_gpt/blob/main/run_training_pipeline.ipynb) ，其对应的colab： [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/MedicalGPT/blob/main/run_training_pipeline.ipynb) ，运行完大概需要15分钟，我运行成功后的副本colab：[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RGkbev8D85gR33HJYxqNdnEThODvGUsS?usp=sharing)
+- 提供完整四阶段串起来训练的pipeline：[run_training_pipeline.ipynb](https://github.com/shanchanghua/medical_gpt/blob/main/run_training_pipeline.ipynb) ，其对应的colab： [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shanchanghua/medical_gpt/blob/main/run_training_pipeline.ipynb) ，运行完大概需要15分钟，我运行成功后的副本colab：[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RGkbev8D85gR33HJYxqNdnEThODvGUsS?usp=sharing)
 - [训练细节说明wiki](https://github.com/shanchanghua/medical_gpt/wiki/%E8%AE%AD%E7%BB%83%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E)
 
 #### Supported Models
@@ -95,10 +95,7 @@ bloom:
 - [bigscience/bloomz-7b1](https://huggingface.co/bigscience/bloomz-7b1)
 
 llama:
-- [shibing624/chinese-alpaca-plus-7b-hf](https://huggingface.co/shibing624/chinese-alpaca-plus-7b-hf)
-- [shibing624/chinese-alpaca-plus-13b-hf](https://huggingface.co/shibing624/chinese-alpaca-plus-13b-hf)
 - [minlik/chinese-llama-plus-7b-merged](https://huggingface.co/minlik/chinese-llama-plus-7b-merged)
-- [shibing624/chinese-llama-plus-13b-hf](https://huggingface.co/shibing624/chinese-llama-plus-13b-hf)
 - [decapoda-research/llama-7b-hf](https://huggingface.co/decapoda-research/llama-7b-hf)
 - [IDEA-CCNL/Ziya-LLaMA-13B-v1](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1)
 
