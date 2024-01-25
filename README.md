@@ -1,4 +1,4 @@
-[**🇨🇳中文**](https://github.com/shanchanghua/medical_gpt/blob/main/README.md) | [**🌐English**](https://github.com/shanchanghua/medical_gpt/blob/main/README.md) | [**📖文档/Docs**](https://github.com/shibing624/MedicalGPT/wiki) | [**🤖模型/Models**](https://huggingface.co/shibing624) 
+[**🇨🇳中文**](https://github.com/shanchanghua/medical_gpt/blob/main/README.md) | [**🌐English**](https://github.com/shanchanghua/medical_gpt/blob/main/README.md) |   [**🤖模型/Models**](https://huggingface.co/shancx) 
 
 <div align="center">
   <a href="https://github.com/shibing624/MedicalGPT">
@@ -9,7 +9,7 @@
 -----------------
 
 # MedicalGPT: Training Medical GPT Model
-[![HF Models](https://img.shields.io/badge/Hugging%20Face-shibing624-green)](https://huggingface.co/shibing624)
+[![HF Models](https://img.shields.io/badge/Hugging%20Face-shibing624-green)](https://huggingface.co/shancx)
 [![Github Stars](https://img.shields.io/github/stars/shibing624/MedicalGPT?color=yellow)](https://star-history.com/#shibing624/MedicalGPT&Timeline)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
@@ -29,9 +29,9 @@ Supervised Finetuning, Reward Modeling and Reinforcement Learning.
 分四阶段训练GPT模型，来自Andrej Karpathy的演讲PDF [State of GPT](https://karpathy.ai/stateofgpt.pdf)，视频 [Video](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2)
 
 ## 🔥 News
-[2023/06/15] v1.0版本: 发布中文医疗LoRA模型[shibing624/ziya-llama-13b-medical-lora](https://huggingface.co/shibing624/ziya-llama-13b-medical-lora)，基于Ziya-LLaMA-13B-v1模型，SFT微调了一版医疗模型，医疗问答效果有提升，发布微调后的LoRA权重，详见[Release-v1.0](https://github.com/shibing624/MedicalGPT/releases/tag/1.0.0)
+[2023/06/15] v1.0版本: 发布中文医疗LoRA模型[shibing624/ziya-llama-13b-medical-lora](https://huggingface.co/shibing624/ziya-llama-13b-medical-lora)，基于Ziya-LLaMA-13B-v1模型，SFT微调了一版医疗模型，医疗问答效果有提升，发布微调后的LoRA权重，
 
-[2023/06/05] v0.2版本: 以医疗为例，训练领域大模型，实现了四阶段训练：包括二次预训练、有监督微调、奖励建模、强化学习训练。详见[Release-v0.2](https://github.com/shibing624/MedicalGPT/releases/tag/0.2.0)
+[2023/06/05] v0.2版本: 以医疗为例，训练领域大模型，实现了四阶段训练：包括二次预训练、有监督微调、奖励建模、强化学习训练。
 
 
 ## 😊 Feature
@@ -48,7 +48,7 @@ Supervised Finetuning, Reward Modeling and Reinforcement Learning.
 
 | Model                                                                                                   | Base Model                                                                        | Introduction                                                                                                                           | 
 |:--------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| [shibing624/ziya-llama-13b-medical-lora](https://huggingface.co/shibing624/ziya-llama-13b-medical-lora) | [IDEA-CCNL/Ziya-LLaMA-13B-v1](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1) | 在240万条中英文医疗数据集[shibing624/medical](https://huggingface.co/datasets/shibing624/medical)上SFT微调了一版Ziya-LLaMA-13B模型，医疗问答效果有提升，发布微调后的LoRA权重 |
+ [IDEA-CCNL/Ziya-LLaMA-13B-v1](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1) | 在240万条 
 
 
 ## ▶️ Demo
@@ -135,11 +135,6 @@ python inference.py \
 
 
 
-
-#### Inference Examples
-[shibing624/ziya-llama-13b-medical-lora](https://huggingface.co/shibing624/ziya-llama-13b-medical-lora) inference examples:
-
-
 | Human                                                                              | Assitant                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 小孩发烧怎么办                                                                            | 宝宝的抵抗力是比较差的，所以很容易就会出现感冒或者其他疾病。如果宝宝在平时没有注意保暖，那么也可能导致身体受凉而引起了感冒等症状，这样不仅对于健康造成影响，还可能让宝宝出现高热的情况。因此当家长们发现自己的宝宝出现了高热的问题之后一定要及早进行治疗和护理才好。<br/>1、首先我们应该给宝宝服用退烧药物来帮助降温，但是千万不要盲目使用退烧药物，否则只会加重宝宝的病情，最好带着宝宝到医院去检查清楚具体原因之后再针对性地采取措施处理。<br/>2、另外大人们也需要做好预防工作，尤其是天气变化的时候更应该多关心下宝宝的身体状态，避免宝宝受寒受凉从而诱发各种疾病，同时也要尽量减少宝宝接触细菌病毒的机会，增强宝宝的免疫力。<br/>3、除了上面两点之外，大人们还可以通过按摩推拿穴位的方式来缓解宝宝的病痛，促进血液循环，提升新陈代谢速度，达到快速消炎止疼的效果         |
@@ -160,7 +155,6 @@ python inference.py \
 
 ## 📚 Dataset 
 ### 医疗数据集
-- 240万条中文医疗数据集(包括预训练、指令微调和奖励数据集)：[shibing624/medical](https://huggingface.co/datasets/shibing624/medical)
 - 22万条中文医疗对话数据集(华佗项目)：[FreedomIntelligence/HuatuoGPT-sft-data-v1](https://huggingface.co/datasets/FreedomIntelligence/HuatuoGPT-sft-data-v1)
 
 ### 通用数据集
