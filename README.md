@@ -14,7 +14,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![python_version](https://img.shields.io/badge/Python-3.8%2B-green.svg)](requirements.txt)
-[![GitHub issues](https://img.shields.io/github/issues/shibing624/MedicalGPT.svg)](https://github.com/shibing624/MedicalGPT/issues)
+[![GitHub issues](https://img.shields.io/github/issues/shibing624/MedicalGPT.svg)](https://github.com/shanchanghua/medical_gpt/issues)
 [![Wechat Group](http://vlog.sfyc.ltd/wechat_everyday/wxgroup_logo.png?imageView2/0/w/60/h/20)](#Contact)
 
 ## 📖 Introduction
@@ -24,7 +24,7 @@ Supervised Finetuning, Reward Modeling and Reinforcement Learning.
 
 **MedicalGPT** 训练医疗大模型，实现包括二次预训练、有监督微调、奖励建模、强化学习训练。
 
-<img src="https://github.com/shibing624/MedicalGPT/blob/main/docs/GPT_Training.jpg" width="860" />
+<img src="https://github.com/shanchanghua/medical_gpt/blob/main/docs/GPT_Training.jpg" width="860" />
 
 分四阶段训练GPT模型，来自Andrej Karpathy的演讲PDF [State of GPT](https://karpathy.ai/stateofgpt.pdf)，视频 [Video](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2)
 
@@ -78,13 +78,13 @@ Training Stage:
 
 | Stage                           | Introduction |  Python script                                                                                                           | Shell script                                                                        |                      
 |:--------------------------------|:-------------|:------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-| Stage 1: Continue Pretraining   | 增量预训练        |          [pretraining.py](https://github.com/shibing624/MedicalGPT/blob/main/pretraining.py)                     | [run_pt.sh](https://github.com/shibing624/MedicalGPT/blob/main/run_pt.sh)   | 
-| Stage 2: Supervised Fine-tuning | 有监督微调        | [supervised_finetuning.py](https://github.com/shibing624/MedicalGPT/blob/main/supervised_finetuning.py) | [run_sft.sh](https://github.com/shibing624/MedicalGPT/blob/main/run_sft.sh) | 
-| Stage 3: Reward Modeling        | 奖励模型建模       | [reward_modeling.py](https://github.com/shibing624/MedicalGPT/blob/main/reward_modeling.py)             | [run_rm.sh](https://github.com/shibing624/MedicalGPT/blob/main/run_rm.sh)   | 
-| Stage 4: Reinforcement Learning | 强化学习         |  [rl_training.py](https://github.com/shibing624/MedicalGPT/blob/main/rl_training.py)                     | [run_rl.sh](https://github.com/shibing624/MedicalGPT/blob/main/run_rl.sh)   | 
+| Stage 1: Continue Pretraining   | 增量预训练        |          [pretraining.py](https://github.com/shanchanghua/medical_gpt/blob/main/pretraining.py)                     | [run_pt.sh](https://github.com/shanchanghua/medical_gpt/blob/main/run_pt.sh)   | 
+| Stage 2: Supervised Fine-tuning | 有监督微调        | [supervised_finetuning.py](https://github.com/shanchanghua/medical_gpt/blob/main/supervised_finetuning.py) | [run_sft.sh](https://github.com/shanchanghua/medical_gpt/blob/main/run_sft.sh) | 
+| Stage 3: Reward Modeling        | 奖励模型建模       | [reward_modeling.py](https://github.com/shanchanghua/medical_gpt/blob/main/reward_modeling.py)             | [run_rm.sh](https://github.com/shanchanghua/medical_gpt/blob/main/run_rm.sh)   | 
+| Stage 4: Reinforcement Learning | 强化学习         |  [rl_training.py](https://github.com/shanchanghua/medical_gpt/blob/main/rl_training.py)                     | [run_rl.sh](https://github.com/shanchanghua/medical_gpt/blob/main/run_rl.sh)   | 
 
 - 提供完整四阶段串起来训练的pipeline：[run_training_pipeline.ipynb](https://github.com/shanchanghua/medical_gpt/blob/main/run_training_pipeline.ipynb) ，其对应的colab： [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/MedicalGPT/blob/main/run_training_pipeline.ipynb) ，运行完大概需要15分钟，我运行成功后的副本colab：[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RGkbev8D85gR33HJYxqNdnEThODvGUsS?usp=sharing)
-- [训练细节说明wiki](https://github.com/shibing624/MedicalGPT/wiki/%E8%AE%AD%E7%BB%83%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E)
+- [训练细节说明wiki](https://github.com/shanchanghua/medical_gpt/wiki/%E8%AE%AD%E7%BB%83%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E)
 
 #### Supported Models
 The following models are tested:
@@ -208,7 +208,7 @@ python inference.py \
 
 基于以上模型局限性，我们要求开发者仅将我们开源的模型权重及后续用此项目生成的衍生物用于研究目的，不得用于商业，以及其他会对社会带来危害的用途。
 
-本项目仅可应用于研究目的，项目开发者不承担任何因使用本项目（包含但不限于数据、模型、代码等）导致的危害或损失。详细请参考[免责声明](https://github.com/shibing624/MedicalGPT/blob/main/DISCLAIMER)。
+本项目仅可应用于研究目的，项目开发者不承担任何因使用本项目（包含但不限于数据、模型、代码等）导致的危害或损失。详细请参考[免责声明](https://github.com/shanchanghua/medical_gpt/blob/main/DISCLAIMER)。
 
 项目代码的授权协议为 [The Apache License 2.0](/LICENSE)，代码可免费用做商业用途，模型权重和数据只能用于研究目的。请在产品说明中附加MedicalGPT的链接和授权协议。
 
@@ -222,7 +222,7 @@ python inference.py \
   title={MedicalGPT: Training Medical GPT Model},
   author={Ming Xu},
   year={2023},
-  howpublished={\url{https://github.com/shibing624/MedicalGPT}},
+  howpublished={\url{https://github.com/shanchanghua/medical_gpt}},
 }
 ```
 
