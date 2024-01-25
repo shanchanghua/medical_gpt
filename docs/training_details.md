@@ -21,7 +21,6 @@ cd scripts
 sh run_pt.sh
 ```
 
-[训练参数说明wiki](https://github.com/shibing624/MedicalGPT/wiki/%E8%AE%AD%E7%BB%83%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E)
 - 如果你的显存不足，可以改小batch_size=1, block_size=512（影响训练的上下文最大长度）;
 - 如果你的显存更大，可以改大block_size=2048, 此为llama原始预训练长度，不能更大啦；调大batch_size。
 
@@ -37,7 +36,6 @@ cd scripts
 sh run_sft.sh
 ```
 
-[训练参数说明wiki](https://github.com/shibing624/MedicalGPT/wiki/%E8%AE%AD%E7%BB%83%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E)
 
 ### Stage 3: Reward Modeling
 第三阶段：RM(Reward Model)奖励模型建模
@@ -59,7 +57,6 @@ Reward modeling using dialog pairs from the reward dataset using the llama-7b-sf
 cd scripts
 sh run_rm.sh
 ```
-[训练参数说明wiki](https://github.com/shibing624/MedicalGPT/wiki/%E8%AE%AD%E7%BB%83%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E)
 
 ### Stage 4: Reinforcement Learning
 第四阶段：RL(Reinforcement Learning)基于人类反馈的强化学习(RLHF)
