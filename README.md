@@ -1,8 +1,8 @@
 [**🇨🇳中文**](https://github.com/shanchanghua/medical_gpt/blob/main/README.md) | [**🌐English**](https://github.com/shanchanghua/medical_gpt/blob/main/README.md) |   [**🤖模型/Models**](https://huggingface.co/shancx) 
 
 <div align="center">
-  <a href="https://github.com/shibing624/MedicalGPT">
-    <img src="https://github.com/shibing624/MedicalGPT/blob/main/docs/logo.png" height="100" alt="Logo">
+  <a href="https://github.com/shanchanghua/medical_gpt">
+    <img src="https://github.com/shanchanghua/medical_gpt/blob/main/docs/logo.png" height="100" alt="Logo">
   </a>
 </div>
 
@@ -29,7 +29,7 @@ Supervised Finetuning, Reward Modeling and Reinforcement Learning.
 分四阶段训练GPT模型，来自Andrej Karpathy的演讲PDF [State of GPT](https://karpathy.ai/stateofgpt.pdf)，视频 [Video](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2)
 
 ## 🔥 News
-[2023/06/15] v1.0版本: 发布中文医疗LoRA模型[shibing624/ziya-llama-13b-medical-lora](https://huggingface.co/shibing624/ziya-llama-13b-medical-lora)，基于Ziya-LLaMA-13B-v1模型，SFT微调了一版医疗模型，医疗问答效果有提升，发布微调后的LoRA权重，
+[2023/06/15] v1.0版本: 发布中文医疗LoRA模型 基于Ziya-LLaMA-13B-v1模型，SFT微调了一版医疗模型，医疗问答效果有提升，发布微调后的LoRA权重，
 
 [2023/06/05] v0.2版本: 以医疗为例，训练领域大模型，实现了四阶段训练：包括二次预训练、有监督微调、奖励建模、强化学习训练。
 
