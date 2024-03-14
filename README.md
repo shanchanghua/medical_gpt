@@ -189,7 +189,7 @@ python inference.py \
 
 - Issue(建议)
 - 邮件我：shanhe12@163.com 
-- 微信我： 加我*微信号：hua7yi, 备注：姓名-公司名-NLP* 进NLP交流群。
+- 微信我： 加我*微信号：hua7yi 
 
 <img src="https://github.com/shanchanghua/medical_gpt/blob/main/docs/wechat.jpg" width="200" />
 
